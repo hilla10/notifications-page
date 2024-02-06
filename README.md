@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-##<h3>Live Demo:</h3 <h4>[Notifications](https://hilla10.github.io/notifications-page/)</h4>
+##<h3>Live Demo:</h3> <h4>[Notifications](https://hilla10.github.io/notifications-page/)</h4>
 
 Thanks for checking out this front-end coding challenge.
 
