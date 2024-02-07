@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans',
+    sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    // height: 100vh;
+    background: $lightGrayishBlue2;
+    font-size: 16px;
+
+        @include breakpointDown(mobile) {
+            font-size: rem(14);
+        }
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn__primary {
+    background: $veryLightGrayishBlue;
+}
+
+
+.border__radius {
+    border-radius: 10px;
+}
+
+a {
+    color: $veryDarkBlue;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    background: $veryDarkBlue;
+    color: $white;
+    padding: rem(30);
+    margin-top: rem(50);
+    text-align: center;
+
+    a {
+        color: $grayishBlue;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color:$red;
+        }
+    }
+}
